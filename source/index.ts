@@ -1,7 +1,3 @@
-import escapeHTML from "escape-html"
-
-export function doSometing(name: string): string {
-    let s: string = `Hello: ${name}.`;
-    s = escapeHTML(s);
-    return s;
-}
+export * from "./doSomething"
+export * from "./greeter"
+export * from "./greeterInterface"
